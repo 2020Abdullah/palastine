@@ -1,0 +1,34 @@
+/*
+my style
+=========================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,600;1,500;1,700&display=swap');
+
+*, body {
+    font-family: 'Noto Kufi Arabic', 'Raleway', sans-serif;
+    font-size: 14px;
+    direction: rtl;
+}
+a {
+    font-size: 16px;
+}
+.form-check-label {
+    margin-right: 10px;
+}
+.sidebar-item {
+    margin-bottom: 1.5rem;
+}
+.sidebar-link,
+a.sidebar-link {
+    padding: 15px;
+}
+.table-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.table img {
+    width: 200px;
+    height: 200px;
+}
